@@ -1,35 +1,19 @@
-# Data Science Template
-A base template for your basic data science / data analysis project.
+# Project Name
 
-This is a simple version of [the cookiecutter template](https://drivendata.github.io/cookiecutter-data-science/).
+Buat summary dari proyek yang telah dikerjakan, sebaiknya memuat beberapa poin berikut.
+
+- Tujuan dari proyek
+- Penjelasan singkat terkait metode, algoritma dan asusmis yang digunakan dalam proyek
+- Aditional information terkait proyek tersebut
 
 ## Quickstart
-Install the latest [Cookiecutter](https://cookiecutter.readthedocs.io/en/stable/) to use this template (requires Cookiecutter 2.1.0 or higher)
+
+Step by step untuk menjalankan app atau API yang menjadi output dari proyek yang dikerjakan.
+
+- Versi Python: **3.x**
 
 ```
-pip install -U cookiecutter 
-```
+pip install -r requirements.txt
 
-Run the following script to generate the template for the project in your terminal or command prompt.
-
-```
-cookiecutter https://github.com/Data-Science-PIHC/template_project.git --checkout <tag>
-```
-
-Then, follow the template as needed.
-
-## Structure
-
-```
-    |--artifacts
-    |--data
-        |--raw
-        |--interim
-        |--processed
-        |--externals
-    |--notebooks
-    |--queries
-    |--reports
-        |--figures
-    |--src
+streamlit run xx.py
 ```
